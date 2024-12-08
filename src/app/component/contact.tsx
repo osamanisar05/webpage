@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -11,11 +11,11 @@ export default function Contact() {
         Our staff will always be there to help you out. Do not hesitate!
       </p>
 
-      
+    
       <div className="flex flex-col md:flex-row items-center">
-
+    
         <div className="w-full md:w-1/2 p-4 flex justify-center">
-          <Image
+          <img
             src="/adress.png"
             alt="Contact Us"
             className="rounded-lg shadow-lg max-h-[400px] object-cover"

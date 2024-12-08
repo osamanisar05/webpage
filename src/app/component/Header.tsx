@@ -1,11 +1,10 @@
-import Image from "next/image"
-import Link from "next/link"
+import Link from "next/link";
 export default function Header (){
     return(
 <header className='flex bg-white border-b py-3 sm:px-6 px-4 font-[sans-serif] min-h-[75px] tracking-wide relative z-50'>
       <div className='flex max-w-screen-xl mx-auto w-full'>
         <div className='flex flex-wrap items-center lg:gap-y-2 gap-4 w-full'>
-          <a href="javascript:void(0)"><Image src="/frame.png " alt="logo" className='w-36' />
+          <a href="javascript:void(0)"><img src="/frame.png " alt="logo" className='w-36' />
           </a>
 
           <div id="collapseMenu"
@@ -25,7 +24,7 @@ export default function Header (){
               className='lg:flex lg:gap-x-3 max-lg:space-y-3 max-lg:fixed max-lg:bg-white max-lg:w-1/2 max-lg:min-w-[300px] max-lg:top-0 max-lg:left-0 max-lg:p-6 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto z-50'>
               <li className='mb-6 hidden max-lg:block'>
                 <div className="flex items-center justify-between gap-4">
-                  <a href="javascript:void(0)"><Image src="https://readymadeui.com/readymadeui.svg" alt="logo" className='w-36' />
+                  <a href="javascript:void(0)"><img src="https://readymadeui.com/readymadeui.svg" alt="logo" className='w-36' />
                   </a>
                   <button
                     className='px-4 py-2 text-sm rounded-full text-white border-2 border-[#007bff] bg-[#007bff] hover:bg-[#004bff]'>Sign
