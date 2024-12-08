@@ -3,6 +3,7 @@ export default function Footer(){
         <footer className="bg-gray 600 py-12 px-8 font-sans tracking-wide">
       <div className="grid max-sm:grid-cols-1 lg:grid-cols-3 items-center gap-8">
         <h2 className="lg:col-span-2 text-xl font-semibold text-gray-300"></h2>
+        
         <div className="bg-transparent border border-gray-800 flex px-1 py-1 rounded-full">
           <input type='email' placeholder='Enter your email' className="w-full outline-none bg-transparent pl-4 text-sm text-gray-300" />
           <button type='button'

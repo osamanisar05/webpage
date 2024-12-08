@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 export default function Banner(){
     return(
         <div className="relative font-sans before:absolute before:w-full before:h-full before:inset-0 before:bg-black before:opacity-50 before:z-10">

@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import Header from "./component/Header";
 import Banner from "./component/Banner";
 import Contact from "./component/contact";
