@@ -4,7 +4,7 @@ export default function Header (){
 <header className='flex bg-white border-b py-3 sm:px-6 px-4 font-[sans-serif] min-h-[75px] tracking-wide relative z-50'>
       <div className='flex max-w-screen-xl mx-auto w-full'>
         <div className='flex flex-wrap items-center lg:gap-y-2 gap-4 w-full'>
-          <a href="javascript:void(0)"><img src="/frame.png " alt="logo" className='w-36' />
+          <a href="javascript:void(0)"><img src="/frame.png" alt="logo" className='w-36' />
           </a>
 
           <div id="collapseMenu"
